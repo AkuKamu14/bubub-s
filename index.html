@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buat Kamu</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <h1>HALLO SAYANGKU ❤️</h1>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="waa.jpg" alt="Foto 1" onclick="toggleSize(this)">
+            <img src="wa..jpg" alt="Foto 2" onclick="toggleSize(this)">
+        </div>
+
+        <div class="video-container">
+            <button onclick="playPause()">Play/Pause</button>
+            <button onclick="makeBig()">Big</button>
+            <button onclick="makeSmall()">Small</button>
+            <button onclick="makeNormal()">Normal</button>
+            <br />
+            <video id="video1" width="420">
+                <source src="seven.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="image-container">
+            <img src="waaa.jpg" alt="Foto 3" onclick="toggleSize(this)">
+            <img src="waaaa.jpg" alt="Foto 4" onclick="toggleSize(this)">
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
