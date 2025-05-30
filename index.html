@@ -4,7 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buat Kamu</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">  
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .image-container img {
+            width: 150px;
+            cursor: pointer;
+        }
+
+        .video-container {
+            text-align: center;
+        }
+
+        video {
+            max-width: 100%;
+        }
+    </style>
 </head>
 <body>
 
@@ -33,6 +60,6 @@
         </div>
     </div>
 
-    <script src="script.js"></script> 
+    <script src="script.js"></script>  
 </body>
 </html>
